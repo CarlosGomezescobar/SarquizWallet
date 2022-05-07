@@ -1,6 +1,6 @@
 from django.db import models
 
-
+   
 class Details(models.Model):
     balance = models.CharField(max_length=500)
     balance1 = models.CharField(max_length=500)
